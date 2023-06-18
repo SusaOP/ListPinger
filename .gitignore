@@ -1,0 +1,9 @@
+*.o
+*.out
+*.txt
+*.csv
+otherCSVs
+backup
+.vscode
+curl
+atomicvector.cc
