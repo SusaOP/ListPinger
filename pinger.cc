@@ -214,7 +214,7 @@ namespace url_pinger {
         
         std::cout << timeSinceStart() <<"Duration: " << timeSinceStartVerbose() << std::endl;
 
-        std::cout << timeSinceStart() <<"Successful URLs: " << std::endl;
+        std::cout << timeSinceStart() <<"Successful URLs: ";
         std::cout << timeSinceStart() << successful_urls.size() << "/" << urls.size() << " ("
              << (static_cast<double>(successful_urls.size()) / urls.size() * 100.0) << "%)" << std::endl;
 
